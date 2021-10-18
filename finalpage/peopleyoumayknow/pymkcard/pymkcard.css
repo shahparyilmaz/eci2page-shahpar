@@ -1,0 +1,88 @@
+.pymkCard {
+  min-height: 50px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 6fr 0.5fr 0.1fr;
+  column-gap: 4%;
+  cursor: pointer;
+  background-color: white;
+}
+.pymkCard:hover {
+  /* background-color: #228dffa2; */
+  background-color: #c5e1ffea;
+  transition: 0.1s linear;
+  border-radius: 1rem;
+}
+.pymkCard div {
+}
+.pymkprofilepic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pymkprofilepic img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
+}
+.pymkuserdetails {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+.pymkuserdetails p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.pymkuserdetailsbox {
+  min-height: 70%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(1fr, auto) 1fr;
+}
+/* .nameandorg {
+  display: grid;
+  grid-template-columns: minmax(auto, 70%) minmax(auto, 20%);
+  column-gap: 5px;
+} */
+.pymknameandorganization {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.pymkname {
+  font-size: 85%;
+  font-weight: 700;
+}
+.pymkorganization {
+  font-size: min(10px, 75%);
+}
+@media screen and (min-width: 300px) {
+  .organization {
+    padding-left: 10px;
+  }
+}
+.pymkconnections {
+  font-size: 60%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.pymkmutualconnectionsicon {
+  display: flex;
+  align-items: center;
+}
+.pymkmutualconnections {
+  margin-left: 5px;
+}
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

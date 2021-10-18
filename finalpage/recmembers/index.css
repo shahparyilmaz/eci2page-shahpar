@@ -1,0 +1,29 @@
+.outerContainer {
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.7fr repeat(4, 1fr);
+  row-gap: 2%; */
+  padding: 0 5% 5% 5%;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.rmtitle {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 5%;
+  font-weight: 700;
+  font-size: 130%;
+}
+.rmtitle p {
+  margin: 0;
+}
+@media screen and (max-width: 1100px) {
+  .rmtitle {
+    font-size: 100%;
+  }
+}

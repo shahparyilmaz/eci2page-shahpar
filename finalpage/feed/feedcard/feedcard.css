@@ -1,0 +1,124 @@
+/* .feeCard {
+  min-height: 50px;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr 6fr 0.5fr 0.1fr;
+  cursor: pointer;
+  background-color: chartreuse;
+} */
+
+.feedCard {
+  background-color: white;
+  padding: 2% 4%;
+  min-height: 50px;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1.5fr 0.5fr;
+  column-gap: 4%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.feedCard div {
+}
+.feedpp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedpp img {
+  height: 10vmin;
+  width: 10vmin;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center center;
+}
+.middlebody {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr minmax(1fr, auto) 1fr; */
+}
+.middlebody div {
+  display: flex;
+  align-items: center;
+}
+.nameandoccupation {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feedname {
+  font-size: 90%;
+  font-weight: 700;
+  margin: 0;
+  overflow-x: auto;
+  padding-right: 20px;
+  width: fit-content;
+}
+.feedoccupation {
+  margin: 0;
+  border-radius: 0.5rem;
+  border: 2px solid green;
+  color: green;
+  background-color: rgb(220, 255, 220);
+  font-size: 60%;
+  padding: 0 5% 0 5%;
+}
+@media screen and(max-width:600px) {
+}
+.courseoccupationlocation {
+  font-size: 60%;
+  color: rgb(70, 70, 70);
+  font-weight: 700;
+}
+.courseoccupationlocation p {
+  margin: 0;
+}
+.courseoccupation {
+  width: 100%;
+}
+.location {
+  width: 100%;
+}
+
+.role p {
+  margin: 0;
+  padding: 0;
+}
+
+.messagecontainer {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deletecontainer {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messagebtn {
+  background-color: white;
+  border: 1.5px solid rgb(9, 149, 230);
+  padding: 2px 0 2px 0;
+  color: rgb(9, 149, 230);
+  border-radius: 0.5rem;
+  width: 100%;
+  font-size: 50%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messagebtn span {
+  width: 2px;
+}
+.feedconnections {
+  font-size: 60%;
+  font-weight: 500;
+}
+.mutualconnectionsicon {
+  display: flex;
+  align-items: center;
+}
+.mutualconnections {
+  margin-left: 5px;
+}
